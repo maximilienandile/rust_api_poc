@@ -3,4 +3,9 @@ name = "rust_api_poc"
 version = "0.1.0"
 authors = ["Maximilien Andile <hello@maximilien-andile.com>"]
 
+[[bin]]
+name = "hello"
+
 [dependencies]
+iron = "0.5.0"
+router = "0.5.0"
